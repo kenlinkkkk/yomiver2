@@ -1,0 +1,1 @@
+[02-May-2018 15:19:59 UTC] PHP Fatal error:  Call to undefined method Admin_mod::_get_list_phone() in /home/visa5scom/public_html/application/controllers/admin_mod.php on line 950

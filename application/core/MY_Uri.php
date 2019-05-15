@@ -1,20 +1,21 @@
-<?php
+<?php  if ( ! defined('BASEPATH')) exit('No direct script access allowed');
 /**
- * Created by PhpStorm.
- * User: thanh
- * Date: 05/10/2019
- * Time: 03:16 PM
- */
-
-class MY_Uri extends CI_URI
+* Languages parse
+* version 1
+* <sincos.net@gmail.com>
+*/
+class MY_URI extends CI_URI
 {
 	public function __construct()
 	{
 		parent::__construct();
-	}
-
+	}	
+	
+	/**
+	 * overwrite
+	 */
 	function _explode_segments()
-	{
+	{		
 		foreach(explode("/", preg_replace("|/*(.+?)/*$|", "\\1", $this->uri_string)) as $val)
 		{
 			// Filter segments for security
@@ -22,7 +23,6 @@ class MY_Uri extends CI_URI
 			if ($val != '') $this->segments[] = $val;
 		}
 	}
-
 	function level($n)
 	{
 		if($n <= 0) return '';
