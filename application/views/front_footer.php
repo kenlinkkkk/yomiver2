@@ -9,7 +9,7 @@
 
 <main>
     <div id="footer">
-        <div class="background-overlay">
+        <div class="container-fluid background-overlay">
             <div class="row">
                 <hr>
                 <div class="col-9">

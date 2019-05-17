@@ -25,11 +25,14 @@ class Front_mod extends MX_Controller {
             case 'lien-he':
                 $main = $this->_front_Lienhe();
         }
+
         $footer = $this->_front_Footer();
+        $promotion = $this->_front_promotion();
         $data = array();
 
         $data['main'] = $main;
         $data['footer'] = $footer;
+        $data['promotion'] = $promotion;
         return $this->load->view('front_layout', $data);
     }
 
@@ -47,6 +50,10 @@ class Front_mod extends MX_Controller {
 
     function _front_Footer() {
         return $this->load->view('front_footer');
+    }
+
+    function _front_promotion() {
+        return $this->load->view('front_promotion');
     }
 }
 ?>

@@ -24,6 +24,8 @@ date_default_timezone_set("Asia/Bangkok");
     <link rel="stylesheet" href="<?= base_url()?>/css/custom.css">
 
     <link rel="stylesheet" href="<?= base_url()?>/css/style.css">
+
+    <link rel="stylesheet" href="<?= base_url()?>/css/button.css">
 <!--    font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
@@ -34,6 +36,12 @@ date_default_timezone_set("Asia/Bangkok");
     <div class="set-opacity">
         <?= $main?>
     </div>
+    <div class="blank-80px"></div>
+
+    <div>
+        <?= $promotion?>
+    </div>
+
     <div class="blank-80px"></div>
     <div style="z-index: -1;">
         <?= $footer?>

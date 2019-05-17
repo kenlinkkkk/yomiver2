@@ -104,6 +104,7 @@
                                         </tr>
                                         </tfoot>
                                     </table>
+                                    <br>
                                     <p class="yellow-text span-bolder"><span><i class="fas fa-gift"></i></span> GHI CHÚ:</p>
                                     <p class="white-text">Giải thưởng được nạp trực tiếp vào TKC của khách hàng sau 48h kể từ thời điểm công bố trúng thưởng.</p>
                                 </div>

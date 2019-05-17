@@ -12,8 +12,18 @@
         <div class="container vh-center">
             <div class="row">
                 <div class="col-10 vh-center white-text">
-                    <p>Mọi thắc mắc xin liên hệ</p>
-                    <h5>CÔNG TY CỔ PHẦN VANO</h5>
+                    <center>
+                        <p>Mọi thắc mắc xin liên hệ</p>
+                        <h5>CÔNG TY CỔ PHẦN VANO</h5>
+                        <hr>
+                        <img src="<?= base_url()?>/images/markers/orange.png">
+                        <p><strong>Địa chỉ:</strong></p>
+                        <p>Tầng 2, tòa nhà VIMECO, Lô E9, Phạm Hùng, Trung Hòa, Cầu Giấy, Hà Nội.</p>
+                        <hr>
+                        <img src="<?= base_url()?>/images/telecaller.png" style="width: 30px; height: 30px;">
+                        <p><strong>CSKH:</strong></p>
+                        <h4 class="yellow-text">(024) 7106 0808</h4>
+                    </center>
                 </div>
             </div>
         </div>
