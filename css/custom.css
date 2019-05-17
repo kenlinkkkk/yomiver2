@@ -3,7 +3,7 @@ p {
 }
 .margin-banner-hd {
     background-color: #0066cb;
-    border-radius: 5px 5px 0 0;
+    border-radius: 5px;
     margin: 0 auto;
 }
 
@@ -25,27 +25,67 @@ p {
 }
 
 .bg-table {
-    margin: 0 auto;
+    margin: auto;
     background-color: #38207e;
     border-radius: 0 0 5px 5px;
+}
+
+.set-opacity {
+    opacity: 0.85;
 }
 
 .number-title {
     font-size: 40px;
     font-weight: lighter;
+    margin: auto;
 }
 
 table tr th {
     color: #ffc700;
-    margin: 0 auto;
+    margin: auto;
+    text-align: center;
+    padding: 5px;
+
 }
 
 table tr td {
     color: #ffffff;
+    text-align: left;
+    padding: 5px;
+
 }
 
+table tfoot {
+    background-color: #b3254d ;
+    font-weight: bold;
+    padding: 5px;
+}
+
+.align-right {
+    text-align: right;
+    padding-right: 5px;
+}
 .bg-text-overlay {
     background-color: rgba(255, 255, 255, 0.5);
     width: 100%;
     padding: 2px 5px 2px;
+}
+
+ul li {
+    color: #ffffff;
+    text-align: justify;
+}
+
+.background-overlay {
+    background-image: url("../images/backgrounds/footer1.jpg");
+    opacity: 0.75;
+}
+
+.vh-center {
+    margin: auto;
+    position: relative;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
 }

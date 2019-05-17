@@ -23,17 +23,24 @@ date_default_timezone_set("Asia/Bangkok");
 <!--        custom css-->
     <link rel="stylesheet" href="<?= base_url()?>/css/custom.css">
 
-<!--    backdround-->
-    <script src="<?= base_url()?>/js/app.js"></script>
-    <script src="<?= base_url()?>/js/particles.min.js"></script>
-
+    <link rel="stylesheet" href="<?= base_url()?>/css/style.css">
 <!--    font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>
 
 <body>
-    <div id="particles-js">
-        <?= $main; ?>
+    <div id="particles-js" style="background-color: #040E57;z-index: -1;position: fixed;"></div>
+
+    <div class="set-opacity">
+        <?= $main?>
     </div>
+
+    <div style="z-index: -1;">
+        <?= $footer?>
+    </div>
+    <!--    backdround-->
+    <script src="<?= base_url()?>/js/particles.min.js"></script>
+
+    <script src="<?= base_url()?>/js/app.js"></script>
 </body>
 </html>
