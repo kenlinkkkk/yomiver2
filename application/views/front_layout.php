@@ -30,11 +30,11 @@ date_default_timezone_set("Asia/Bangkok");
 
 <body>
     <div id="particles-js" style="background-color: #040E57;z-index: -1;position: fixed;"></div>
-
+    <div class="blank-80px"></div>
     <div class="set-opacity">
         <?= $main?>
     </div>
-
+    <div class="blank-80px"></div>
     <div style="z-index: -1;">
         <?= $footer?>
     </div>

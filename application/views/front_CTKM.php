@@ -14,6 +14,7 @@
                 <div class="col-10 bg-table">
                     <div class="row">
                         <div class="col-11 bg-table">
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">01</h2>
@@ -23,6 +24,7 @@
                                     <p class="yellow-text">&#34 Đặt Số Thả Ga - Nhận Quà Cực Đã &#34</p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">02</h2>
@@ -32,6 +34,7 @@
                                     <p class="white-text">Từ 0:00:00 ngày <span class="yellow-text">18/02/2019</span> đến 23:59:59 ngày <span class="yellow-text">18/05/2019 </span>(90 ngày) </p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">03</h2>
@@ -41,6 +44,7 @@
                                     <h4 class="yellow-text" style="font-weight: lighter">5899</h4>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">04</h2>
@@ -50,6 +54,7 @@
                                     <p class="white-text">Đặt số và tích điểm trúng thưởng</p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">05</h2>
@@ -103,6 +108,7 @@
                                     <p class="white-text">Giải thưởng được nạp trực tiếp vào TKC của khách hàng sau 48h kể từ thời điểm công bố trúng thưởng.</p>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">06</h2>
@@ -149,6 +155,7 @@
                                     </table>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">07</h2>
@@ -172,6 +179,7 @@
                                     </ul>
                                 </div>
                             </div>
+                            <hr>
                             <div class="row">
                                 <div class="col-1">
                                     <h2 class="white-text number-title">08</h2>
@@ -208,6 +216,7 @@
                                     </ul>
                                 </div>
                             </div>
+                            <hr>
                         </div>
                     </div>
                 </div>

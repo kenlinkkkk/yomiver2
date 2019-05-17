@@ -4,7 +4,7 @@ p {
 .margin-banner-hd {
     background-color: #0066cb;
     border-radius: 5px;
-    margin: 0 auto;
+    margin: auto;
 }
 
 .white-text{
@@ -27,7 +27,7 @@ p {
 .bg-table {
     margin: auto;
     background-color: #38207e;
-    border-radius: 0 0 5px 5px;
+    border-radius: 5px;
 }
 
 .set-opacity {
@@ -78,6 +78,8 @@ ul li {
 
 .background-overlay {
     background-image: url("../images/backgrounds/footer1.jpg");
+    width: 100%;
+    object-fit: contain;
     opacity: 0.75;
 }
 
@@ -88,4 +90,14 @@ ul li {
     bottom: 0;
     left: 0;
     right: 0;
+}
+
+hr {
+    border-color: rgb(0, 0, 0, 0);
+}
+
+.blank-80px {
+    height: 80px;
+    width: 100%;
+    display: block;
 }
