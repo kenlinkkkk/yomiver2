@@ -1,6 +1,10 @@
 p {
     text-align-all: justify;
 }
+
+html {
+    scroll-behavior: smooth;
+}
 .margin-banner-hd {
     background-color: #0066cb;
     border-radius: 5px;
@@ -108,3 +112,6 @@ hr {
     max-height: 100%;
 }
 
+.text-wrap {
+    word-wrap: break-word;
+}

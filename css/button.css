@@ -3,17 +3,15 @@
     text-decoration: none;
     text-transform: uppercase;
     font-family: 'Exo 2', sans-serif;
-    font-weight: 300;
+    font-weight: bold;
     font-size: 15px;
     display: inline-block;
     position: relative;
     text-align: center;
-    color: #00c7ec;
-    border: 1px solid #00c7ec;
     border-radius: 5px;
     line-height: 3em;
-    padding-left: 5em;
-    padding-right: 5em;
+    /*padding-left: 5em;*/
+    /*padding-right: 5em;*/
     box-shadow: 0 0 0 0 transparent;
     -webkit-transition: all 0.2s ease-in;
     -moz-transition: all 0.2s ease-in;
@@ -23,7 +21,6 @@
     color: white;
     box-shadow: 0 0 30px 0 rgba(0, 199, 236, 0.5);
     text-decoration: none;
-    background-color: #00c7ec;
     -webkit-transition: all 0.2s ease-out;
     -moz-transition: all 0.2s ease-out;
     transition: all 0.2s ease-out;
@@ -95,4 +92,13 @@
         opacity: 0;
         left: 100%;
     }
+}
+
+.button-color-1 {
+    color: #b3254d;
+    border: 1px solid #b3254d;
+}
+
+.button-color-1:hover {
+    background-color: #b3254d;
 }

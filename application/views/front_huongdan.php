@@ -28,7 +28,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title" style="margin: auto;">01</h2>
+                                    <h2 class="white-text number-title text-wrap">01</h2>
                                 </div>
                                 <div class="col-8">
                                     <h5 class="white-text">ĐỐI TƯỢNG SỬ DỤNG</h5>
@@ -38,7 +38,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title" style="margin: auto;">02</h2>
+                                    <h2 class="white-text number-title text-wrap">02</h2>
                                 </div>
                                 <div class="col-8">
                                     <h5 class="white-text">CÁC KÊNH CUNG CẤP DỊCH VỤ</h5>
@@ -48,7 +48,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title" style="margin: auto;">03</h2>
+                                    <h2 class="white-text number-title text-wrap">03</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">HƯỚNG DẪN ĐĂNG KÍ/ HỦY VÀ GIÁ CƯỚC</h5>

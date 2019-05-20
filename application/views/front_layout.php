@@ -21,11 +21,11 @@ date_default_timezone_set("Asia/Bangkok");
 
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
 <!--        custom css-->
-    <link rel="stylesheet" href="<?= base_url()?>/css/custom.css">
+    <link rel="stylesheet" href="<?= base_url()?>css/custom.css">
 
-    <link rel="stylesheet" href="<?= base_url()?>/css/style.css">
+    <link rel="stylesheet" href="<?= base_url()?>css/style.css">
 
-    <link rel="stylesheet" href="<?= base_url()?>/css/button.css">
+    <link rel="stylesheet" href="<?= base_url()?>css/button.css">
 <!--    font awesome-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
 </head>

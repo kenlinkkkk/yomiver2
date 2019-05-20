@@ -24,6 +24,10 @@ class Front_mod extends MX_Controller {
                 break;
             case 'lien-he':
                 $main = $this->_front_Lienhe();
+                break;
+            case 'gioi-thieu':
+                $main = $this->_front_gioithieu();
+                break;
         }
 
         $footer = $this->_front_Footer();
@@ -54,6 +58,10 @@ class Front_mod extends MX_Controller {
 
     function _front_promotion() {
         return $this->load->view('front_promotion');
+    }
+
+    function _front_gioithieu() {
+        return $this->load->view('front_gioithieu');
     }
 }
 ?>

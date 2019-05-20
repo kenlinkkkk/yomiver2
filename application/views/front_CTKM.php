@@ -17,7 +17,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">01</h2>
+                                    <h2 class="white-text number-title text-wrap">01</h2>
                                 </div>
                                 <div class="col-8">
                                     <h5 class="white-text">TÊN CHƯƠNG TRÌNH TRÚNG THƯỞNG</h5>
@@ -27,7 +27,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">02</h2>
+                                    <h2 class="white-text number-title text-wrap">02</h2>
                                 </div>
                                 <div class="col-8">
                                     <h5 class="white-text">THỜI GIAN ÁP DỤNG</h5>
@@ -37,7 +37,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">03</h2>
+                                    <h2 class="white-text number-title text-wrap">03</h2>
                                 </div>
                                 <div class="col-8">
                                     <h5 class="white-text">ĐẦU SỐ TƯƠNG TÁC</h5>
@@ -47,7 +47,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">04</h2>
+                                    <h2 class="white-text number-title text-wrap">04</h2>
                                 </div>
                                 <div class="col-8">
                                     <h5 class="white-text">HÌNH THỨC</h5>
@@ -57,11 +57,12 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">05</h2>
+                                    <h2 class="white-text number-title text-wrap">05</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">CƠ CẤU GIẢI THƯỞNG</h5>
-                                    <table class="table-bordered">
+
+                                    <table class="table-responsive table-bordered">
                                         <thead>
                                         <tr>
                                             <th scope="col">STT</th>
@@ -104,6 +105,7 @@
                                         </tr>
                                         </tfoot>
                                     </table>
+
                                     <br>
                                     <p class="yellow-text span-bolder"><span><i class="fas fa-gift"></i></span> GHI CHÚ:</p>
                                     <p class="white-text">Giải thưởng được nạp trực tiếp vào TKC của khách hàng sau 48h kể từ thời điểm công bố trúng thưởng.</p>
@@ -112,7 +114,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">06</h2>
+                                    <h2 class="white-text number-title text-wrap">06</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">THỂ LỆ THAM GIA CHƯƠNG TRÌNH KHUYẾN MÃI</h5>
@@ -128,6 +130,7 @@
                                             được giải thưởng là 5.000.000 VNĐ cộng vào TKC (01 giải/ tháng).</li>
                                     </ul>
                                     <p class="yellow-text"><span><i class="fas fa-star"></i></span> QUY ĐỊNH VỀ ĐIỂM TÍCH LŨY</p>
+
                                     <table class="table-bordered">
                                         <thead>
                                         <tr>
@@ -154,12 +157,13 @@
                                         </tr>
                                         </tbody>
                                     </table>
+
                                 </div>
                             </div>
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">07</h2>
+                                    <h2 class="white-text number-title text-wrap">07</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">CÁCH THỨC XÁC ĐỊNH TRÚNG THƯỞNG</h5>
@@ -183,7 +187,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title">08</h2>
+                                    <h2 class="white-text number-title text-wrap">08</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">CÁCH THỨC XÁC ĐỊNH THUÊ BAO TRÚNG THƯỞNG GIẢI TUẦN, GIẢI THÁNG</h5>
