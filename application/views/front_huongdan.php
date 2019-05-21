@@ -53,7 +53,7 @@
                                 <div class="col-10">
                                     <h5 class="white-text">HƯỚNG DẪN ĐĂNG KÍ/ HỦY VÀ GIÁ CƯỚC</h5>
                                     <p class="yellow-text"><span><i class="fab fa-jira"></i></i></span> QUA KÊNH SMS</p>
-                                    <table class="table-bordered">
+                                    <table class="table-responsive table-bordered">
                                         <thead>
                                         <tr>
                                             <th scope="col" rowspan="2">STT</th>

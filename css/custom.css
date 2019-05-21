@@ -98,7 +98,7 @@ ul li {
 }
 
 hr {
-    border-color: rgb(0, 0, 0, 0);
+    border-color: rgba(0, 0, 0, 0);
 }
 
 .blank-80px {
@@ -114,4 +114,25 @@ hr {
 
 .text-wrap {
     word-wrap: break-word;
+}
+
+.card .icon-star {
+    position: relative;
+    margin: auto;
+    top: -70px;
+    max-width: 100px;
+    max-height: 100px;
+}
+
+.card-borderless {
+    border: none !important;
+}
+
+.card {
+    border: 1px solid #ffffff;
+    min-height: 100% !important;
+}
+.width-hr {
+    max-width: 20%;
+    border: 1px solid #ffffff;
 }
