@@ -16,7 +16,7 @@
                         <div class="col-sm-12 col-md-7">
                             <p class="white-text">Dự án Yomi được xây dựng trên nền tảng tích hợp tri thức Đông Tây, cụ thể
                             chúng tôi dựa vào nền tảng kiến thức Tử Vi Học, Chiêm Tinh Học và MBTI, nhằm đưa ra được những
-                            nhận định, đánh giá khách quan và chính xác nhất về cấu trúc bẩm sinh của con người</p>
+                            nhận định, đánh giá khách quan và chính xác nhất về cấu trúc bẩm sinh của con người.</p>
                         </div>
 
                         <div class="col-sm-12 col-md-1">
@@ -24,7 +24,25 @@
                         </div>
 
                         <div class="col-sm-12 col-md-4">
-                            <img src="<?= base_url()?>/images/stickers">
+                            <img src="<?= base_url()?>/images/stickers/tv4.png" class="img-fit vh-center">
+                        </div>
+                    </div>
+
+                    <div class="blank-80px"></div>
+
+                    <div class="row">
+                        <div class="col-sm-12 col-md-7">
+                            <p class="white-text">Yomi là dự án đầu tiên và duy nhất tại Việt Nam ứng dụng Tử Vi Học và Chiêm Tinh Học
+                            trong việc thấu hiểu Cái Tôi của mỗi người, với mong muốn đem đến cho mỗi người một cái nhìn hoàn chỉnh
+                            và có hệ thống hơn trong việc phát triển tư duy sống và biết cách tự hoàn thiện mình.</p>
+                        </div>
+
+                        <div class="col-sm-12 col-md-1">
+                            <div class="blank-80px"></div>
+                        </div>
+
+                        <div class="col-sm-12 col-md-4">
+                            <img src="<?= base_url()?>/images/stickers/tv4.png" class="img-fit vh-center">
                         </div>
                     </div>
                 </div>

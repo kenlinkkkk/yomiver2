@@ -136,3 +136,17 @@ hr {
     max-width: 20%;
     border: 1px solid #ffffff;
 }
+
+ul li {
+    list-style: disc;
+}
+
+.carousel-item {
+    object-fit: cover;
+    max-width: 100%;
+    max-height: 450px;
+}
+
+.bottom-40px {
+    bottom: 20%;
+}
