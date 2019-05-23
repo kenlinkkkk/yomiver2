@@ -1,24 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="70a5154f-a6c0-4dc7-a032-4ad2a4828a97" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/dataSources/9645907e-3883-4618-9258-f2b3f1407391.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/dataSources/9645907e-3883-4618-9258-f2b3f1407391.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/admin_article_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/admin_category_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/admin_comment_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/admin_promotion_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/admin_slide_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/front_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/member_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/models/register_model.php" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/front_dieule.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front_dieule.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/front_gioithieu.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front_gioithieu.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/front_home.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front_home.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/front_huongdan.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front_huongdan.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/views/front_layout.php" beforeDir="false" afterPath="$PROJECT_DIR$/application/views/front_layout.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/custom.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/custom.css" afterDir="false" />
-    </list>
+    <list default="true" id="70a5154f-a6c0-4dc7-a032-4ad2a4828a97" name="Default Changelist" comment="" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -222,7 +205,8 @@
             <path>
               <item name="yomi_demo" type="b2602c69:ProjectViewProjectNode" />
               <item name="yomi_demo" type="462c0819:PsiDirectoryNode" />
-              <item name="css" type="462c0819:PsiDirectoryNode" />
+              <item name="application" type="462c0819:PsiDirectoryNode" />
+              <item name="views" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -314,12 +298,12 @@
       <workItem from="1558232952344" duration="183000" />
       <workItem from="1558235201558" duration="5084000" />
       <workItem from="1558576891183" duration="16520000" />
-      <workItem from="1558598927030" duration="3417000" />
+      <workItem from="1558598927030" duration="3634000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="154830000" />
+    <option name="totallyTimeSpent" value="155047000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="22" width="1382" height="754" extended-state="6" />
