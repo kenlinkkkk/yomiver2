@@ -7,9 +7,6 @@
  */
 ?>
 
-<<<<<<< HEAD
-
-=======
 <main>
     <div id="gioithieu">
         <div class="container vh-center">
@@ -53,4 +50,4 @@
         </div>
     </div>
 </main>
->>>>>>> 0d41b3f5c861b37e093b03064f5a453645d913ba
+

@@ -150,3 +150,43 @@ ul li {
 .bottom-40px {
     bottom: 20%;
 }
+
+.navbar-inner {
+    background-color:transparent;
+}
+
+.collapse  ul li {
+    float: left;
+    list-style: none;
+    padding-left: 10px;
+}
+
+.item-padding {
+    padding: 8px;
+}
+
+.pill-width {
+    width: 33.3333333%;
+    background-color: #b3254d;
+    border-radius: 0px !important;
+}
+
+.number-title-border {
+    border: 1px solid #ffffff;
+}
+
+.button-BTT {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 99;
+    font-size: 18px;
+    border: 1px solid #ffffff;
+    outline: none;
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 4px;
+}

@@ -102,3 +102,12 @@
 .button-color-1:hover {
     background-color: #b3254d;
 }
+
+.button-color-white {
+    color: #ffffff;
+    border: 3px solid #ffffff;
+}
+
+.button-color-white:hover {
+    background-color: #ffffff;
+}
