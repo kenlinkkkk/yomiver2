@@ -11,8 +11,8 @@
     <div id="dieule">
         <div class="container vh-center">
             <div class="row">
-                <div class="col-10 vh-center bg-table">
-
+                <div class="col-10 vh-center bg-table white-text">
+                    <p>kjjshkadhsjdh</p>
                 </div>
             </div>
         </div>
