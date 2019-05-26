@@ -44,7 +44,7 @@
                 <a class="navbar-brand" href="<?=base_url()?>admin"><img alt="..." class="navbar-brand-img main-logo" src="<?=base_url()?>/asset/admin/img/brand/logo-dark.png"> <img alt="..." class="navbar-brand-img logo" src="<?=base_url()?>/asset/admin/img/brand/logo.png"></a>
                 <ul class="side-menu">
                     <li>
-                        <a class="side-menu__item" href="#"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Slides</span></a>
+                        <a class="side-menu__item" href="<?= base_url()?>admin/slide"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Slides</span></a>
                     </li>
 
                     <li>
@@ -123,9 +123,10 @@
                     <!-- Top navbar-->
 
                     <!-- Page content -->
-                    <div class="container-fluid pt-8">
 
+                        <?= $main?>
 
+                    <!-- End page content -->
 
                         <!-- Footer -->
                         <footer class="footer">

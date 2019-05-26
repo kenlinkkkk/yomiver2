@@ -17,4 +17,18 @@ class slides_model extends CI_Model
         $this->db->from('slides');
         return $this->db->get();
     }
+
+    function deleteSlideById($idSlide) {
+        $this->db->from('slides');
+        $this->db->where('id', $idSlide);
+        $this->db->delete('slides');
+
+        if ($this->db->affected_rows() > 0) {
+            $status = "Xóa thành công";
+        } else {
+            $status = "Xóa thất bại";
+        }
+
+        return $status;
+    }
 }

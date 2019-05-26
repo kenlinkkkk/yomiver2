@@ -22,6 +22,7 @@ class Admin_mod extends MX_Controller
     {
         parent::__construct();
         $this->load->model('user_model');
+        $this->load->model('slides_model');
     }
 
     function index() {
@@ -40,15 +41,19 @@ class Admin_mod extends MX_Controller
         if ($segment2 == 'logout') {
             return $this->_logout();
         }
+        $main = '';
+
         if ($segment1 == 'admin'){
             switch ($segment2) {
                 case 'slide':
-                    return null;
+                    $main = $this->_slides();
                     break;
-                default:
-                    return $this->load->view('admin_layout');
             }
         }
+
+        $data['main'] = $main;
+
+        return $this->load->view('admin_layout', $data);
     }
 //    function for login
 
@@ -133,5 +138,55 @@ class Admin_mod extends MX_Controller
         return null;
     }
 //    end function for login
+
+
+//    function for load view
+
+//    function for slide
+
+    function _slides() {
+        $segment3 = $this->uri->segment(3);
+
+        $this->config->set_item('page_title', 'Slides');
+
+        switch ($segment3) {
+            case 'add':
+            case 'edit':
+                return $this->_slides_add();
+                break;
+            case 'delete':
+                return null;
+                break;
+            default:
+                return $this->_slides_list();
+        }
+    }
+
+    function _slides_list() {
+        $slides = $this->slides_model->get_slides();
+
+        $data['slides'] = $slides;
+
+        return $this->load->view('admin_slides', $data);
+    }
+
+    function _slides_delete() {
+        $segment4 = intval($this->uri->segment(4));
+        $this->slides_model->deleteSlideById($segment4);
+        redirect($this->uri->level(2));
+    }
+
+    function _slides_add() {
+        return $this->load->view('admin_slides_add');
+    }
+//    end slides
+
+// upload file
+
+    function _upload_image() {
+        $url_img = '';
+
+        if (!empty($_FILES['']));
+    }
 }
 ?>
