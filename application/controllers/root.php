@@ -37,7 +37,6 @@ class Root extends MX_Controller {
 			$html = modules::run('front_mod');
 		
 		$this->output->set_output($html);
-		
 	}
 	
 	

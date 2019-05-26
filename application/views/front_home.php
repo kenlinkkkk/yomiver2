@@ -5,6 +5,7 @@
  * Date: 05/21/2019
  * Time: 02:49 PM
  */
+
 ?>
 
 <main>
@@ -15,7 +16,7 @@
                     <img class="d-block w-100" src="<?=base_url()?>/images/backgrounds/slide-1.png" alt="First slide">
                     <div class="carousel-caption text-left bottom-40px">
                         <h4>XEM TỬ VI THEO NGÀY CỦA BẠN</h4>
-                        <a class="button button-color-1" style="max-width: 100px">XEM THÊM</a>
+                        <a class="button button-color-1" style="max-width: 100px" href="<?=base_url()?>tu-vi">XEM THÊM</a>
                     </div>
                 </div>
             </div>
@@ -36,7 +37,7 @@
                 <div class="col-11 vh-center">
                     <div class="row">
                         <div class="col-sm-12 col-md-3">
-                            <div class="card" style="background-color:rgba(0, 0, 0, 0);">
+                            <div class="card card-borderless" style="background-color:rgba(0, 0, 0, 0);">
                                 <div class="card-header text-center">
                                     <img src="<?= base_url()?>/images/stickers/horo1.png" class="img-fit">
                                 </div>
@@ -46,7 +47,7 @@
                                 </div>
                                 <div class="card-footer text-center">
                                     <hr class="width-hr">
-                                    <a href="#" class="button button-color-white">XEM THÊM</a>
+                                    <a href="<?=base_url()?>tu-vi" class="button button-color-white">XEM THÊM</a>
                                 </div>
                             </div>
                         </div>
@@ -56,7 +57,7 @@
                         </div>
                         
                         <div class="col-sm-12 col-md-3">
-                            <div class="card" style="background-color:rgba(0, 0, 0, 0);">
+                            <div class="card card-borderless" style="background-color:rgba(0, 0, 0, 0);">
                                 <div class="card-header text-center">
                                     <img src="<?= base_url()?>/images/stickers/horo2.png" class="img-fit">
                                 </div>
@@ -66,7 +67,7 @@
                                 </div>
                                 <div class="card-footer text-center">
                                     <hr class="width-hr">
-                                    <a href="#" class="button button-color-white">XEM THÊM</a>
+                                    <a href="<?=base_url()?>hoang-dao" class="button button-color-white">XEM THÊM</a>
                                 </div>
                             </div>
                         </div>
@@ -81,7 +82,7 @@
 
                         <div id="form" class="col-12 vh-center">
                             <hr>
-                            <h6 style="color: #0070b8" class="text-center">HÃY ĐIỀN ĐẦY ĐỦ THÔNG TIN ĐỂ NHẬN CUỐN SÁCH NÀY</h6>
+<!--                            <h6 style="color: #0070b8" class="text-center">HÃY ĐIỀN ĐẦY ĐỦ THÔNG TIN ĐỂ NHẬN CUỐN SÁCH NÀY</h6>-->
 
                             <hr>
                             <h6 class="white-text text-center">Tìm hiểu thêm</h6>

@@ -5,10 +5,7 @@ date_default_timezone_set("Asia/Bangkok");
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <title><?= $this->config->item('title'); ?></title>
-    <meta property="og:title" content="<?= $this->config->item('title'); ?>"/>
-    <meta property="og:url" content="<?= $this->config->item('og_url'); ?>"/>
-    <meta property="og:image" content="<?= $this->config->item('og_image'); ?>"/>
+    <title><?= $main['title'] ?></title>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
 <!--    boostrap 4-->
@@ -28,12 +25,43 @@ date_default_timezone_set("Asia/Bangkok");
 
 <body>
     <button onclick="topFunction()" id="myBtn" class="button-BTT" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+    <!-- Đăng nhập -->
+    <div id="dangnhap" style="display: none;position: absolute;z-index: 9999;width: 100%; height: 100%">
+        <div class="container login-container">
+            <div class="row">
+                <div id="content-login" class="col-sm-12 col-md-6 login-form-1 vh-center" style="background-color:#fff; border-radius: 7px;position: fixed; max-height: 400px;">
+                    <h3>Đăng nhập</h3>
+                    <form method="post" action="">
+                        <div class="form-group">
+                            <input type="text" class="form-control" placeholder="Số điện thoại *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="password" class="form-control" placeholder="Mật khẩu *" value="" />
+                        </div>
+                        <div class="form-group">
+                            <input type="submit" class="btnSubmit" value="Đăng nhập"/>
+                        </div>
 
+                        <div class="text-center p-t-115">
+                            <span class="txt1">
+                                Bạn chưa có tài khoản?
+                            </span>
+
+                            <a class="txt2" href="<?= base_url()?>huong-dan-dang-ky">
+                                Đăng kí ngay
+                            </a>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- end Đăng nhập -->
     <div id="particles-js" style="background-color: #040E57;z-index: -1;position: fixed;"></div>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-inner static-top">
         <div class="container">
-            <a class="navbar-brand" href=<?=base_url()?>#">
+            <a class="navbar-brand" href="<?=base_url()?>">
                 <img src="<?= base_url()?>/images/logo.png" alt="Yomi">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
@@ -42,19 +70,13 @@ date_default_timezone_set("Asia/Bangkok");
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link white-text" href="<?=base_url()?>gioi-thieu">Giới thiệu</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link white-text" href="<?=base_url()?>huong-dan-dang-ky">Hướng dẫn</a>
-                    </li>
-                    <li class="nav-item">
-                        <a class="nav-link white-text" href="<?=base_url()?>lien-he">Liên hệ</a>
-                    </li>
-                    <li>
-                        <a class="nav-link white-text" href="<?=base_url()?>dieu-le">Điều lệ</a>
+                        <a class="nav-link white-text" href="#">Demo</a>
                     </li>
                     <li class="nav-item disabled">
                         <p class="white-text item-padding"><span><i class="fas fa-phone-volume"></i></span> CSKH: (024) 7106 0808</p>
+                    </li>
+                    <li>
+                        <button id="dangnhapbtn" class="btn btn-light">Đăng nhập</button>
                     </li>
                 </ul>
             </div>
@@ -63,7 +85,7 @@ date_default_timezone_set("Asia/Bangkok");
     <!-- end navbar -->
     <div class="blank-80px"></div>
     <div class="set-opacity">
-        <?= $main?>
+        <?= $main['view']?>
     </div>
     <div class="blank-80px"></div>
 
@@ -90,7 +112,7 @@ date_default_timezone_set("Asia/Bangkok");
         window.onscroll = function() {scrollFunction()};
 
         function scrollFunction() {
-            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+            if (document.body.scrollTop > 50 || document.documentElement.scrollTop > 50) {
                 document.getElementById("myBtn").style.display = "block";
             } else {
                 document.getElementById("myBtn").style.display = "none";
@@ -101,6 +123,22 @@ date_default_timezone_set("Asia/Bangkok");
         function topFunction() {
             document.body.scrollTop = 0;
             document.documentElement.scrollTop = 0;
+        }
+
+        window.onload = function () {
+            var x = document.getElementById('dangnhap');
+            var y = document.getElementById('content-login');
+            var z = document.getElementById('dangnhapbtn');
+            document.onclick = function (e) {
+                if (e.target == x){
+                    x.style.display = 'none';
+                    y.style.display = 'none';
+                }
+                if (e.target == z) {
+                    x.style.display = 'block';
+                    y.style.display = 'block';
+                }
+            }
         }
     </script>
 </body>

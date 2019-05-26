@@ -10,6 +10,7 @@ class Front_mod extends MX_Controller {
     public function __construct()
     {
         parent::__construct();
+        $this->load->model('user_model');
     }
 
     function index() {
@@ -59,15 +60,30 @@ class Front_mod extends MX_Controller {
     }
 
     function _front_Huongdan() {
-        return $this->load->view('front_huongdan');
+        $data = [
+            'view' => $this->load->view('front_huongdan'),
+            'title' => 'Hướng dẫn đăng ký dịch vụ',
+        ];
+
+        return $data;
     }
 
     function _front_CTKM() {
-        return $this->load->view('front_CTKM');
+        $data = [
+            'view' => $this->load->view('front_CTKM'),
+            'title' => 'Chương trình khuyến mãi',
+        ];
+
+        return $data;
     }
 
     function _front_Lienhe() {
-        return $this->load->view('front_Lienhe');
+        $data = [
+            'view' => $this->load->view('front_Lienhe'),
+            'title' => 'Liên hệ',
+        ];
+
+        return $data;
     }
 
     function _front_Footer() {
@@ -79,31 +95,73 @@ class Front_mod extends MX_Controller {
     }
 
     function _front_Gioithieu() {
-        return $this->load->view('front_gioithieu');
+        $data = [
+            'view' => $this->load->view('front_gioithieu'),
+            'title' => 'Giới thiệu',
+        ];
+
+        return $data;
     }
 
     function _front_Sachkhampha() {
-        return $this->load->view('front_sachkhampha');
+        $data = [
+            'view' => $this->load->view('front_sachkhampha'),
+            'title' => 'Sách khám phá bản thân',
+        ];
+
+        return $data;
     }
 
     function _front_Tuviphongthuy() {
-        return $this->load->view('front_tuviphongthuy');
+        $data = [
+            'view' => $this->load->view('front_tuviphongthuy'),
+            'title' => 'Tử vi phong thủy',
+        ];
+
+        return $data;
     }
 
     function _front_Hoangdao() {
-        return $this->load->view('front_hoangdao');
+        $data = [
+            'view' => $this->load->view('front_hoangdao'),
+            'title' => 'Cung hoàng đạo',
+        ];
+
+        return $data;
     }
 
     function _front_Lichvansu() {
-        return $this->load->view('front_lichvansu');
+        $data = [
+            'view' => $this->load->view('front_lichvansu'),
+            'title' => 'Lịch vạn sự',
+        ];
+
+        return $data;
     }
 
     function _front_Dieule() {
-        return $this->load->view('front_dieule');
+        $data = [
+            'view' => $this->load->view('front_dieule'),
+            'title' => 'Điều lệ thỏa thuận',
+        ];
+
+        return $data;
     }
 
     function _front_Home() {
-        return $this->load->view('front_home');
+        $data = [
+            'view' => $this->load->view('front_home'),
+            'title' => 'Trang chủ',
+        ];
+
+        return $data;
     }
+
+    function _login() {
+        $errors = false;
+        $this->session->unset_userdata('Username');
+        $this->session->unset_userdata('');
+    }
+
 }
 ?>

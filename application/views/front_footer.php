@@ -19,10 +19,30 @@
                                 <h4>TỬ VI - PHONG THỦY - CUNG HOÀNG ĐẠO HẰNG NGÀY</h4>
                                 <hr>
                                 <h5>Copyright &#9400 2019 YOMI.VN</h5>
-                                <p>Privacy Policy</p>
+                                <hr class="width-hr">
+                                <a class="nav-link white-text" href="<?=base_url()?>gioi-thieu">Giới thiệu</a>
+                                <a class="nav-link white-text" href="<?=base_url()?>huong-dan-dang-ky">Hướng dẫn</a>
+                                <a class="nav-link white-text" href="<?=base_url()?>lien-he">Liên hệ</a>
+                                <a class="nav-link white-text" href="<?=base_url()?>dieu-le">Điều lệ</a>
                             </div>
                             <div class="col-4 white-text">
                                 <h4>LIÊN HỆ</h4>
+                                <ul>
+                                    <li>
+                                        <span><img src="<?= base_url()?>/images/icons/address.png" class="vh-center" style="max-width: 30px; max-height: 30px;"></span>
+                                        Địa chỉ: Tầng 2, tòa nhà VIMECO, Lô E9, Phạm Hùng, Trung Hòa, Cầu Giấy, Hà Nội
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <span><img src="<?= base_url()?>/images/icons/call.png" class="vh-center" style="max-width: 30px; max-height: 30px;"></span>
+                                        CSKH: (024) 7016 0808
+                                    </li>
+                                    <hr>
+                                    <li>
+                                        <span><img src="<?= base_url()?>/images/icons/email.png" class="vh-center" style="max-width: 30px; max-height: 30px;"></span>
+                                        Email: demo@demo.com
+                                    </li>
+                                </ul>
                             </div>
                             <div class="col-4 white-text">
                                 <h4>YOMI.VN</h4>
