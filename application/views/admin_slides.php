@@ -54,7 +54,7 @@
                                             <td><?= $slide->title; ?></td>
                                             <td class="text-nowrap">
                                                 <a href="./slide/edit/<?= $slide->id?>" class="btn btn-success btn-sm"><i class="fa fa-edit"></i> Sửa </a>
-                                                <a href="./slide/delêt/<?= $slide->id?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Xóa </a>
+                                                <a href="./slide/delete/<?= $slide->id?>" class="btn btn-danger btn-sm"><i class="fa fa-trash"></i> Xóa </a>
                                             </td>
                                         </tr>
                                     <?php }?>

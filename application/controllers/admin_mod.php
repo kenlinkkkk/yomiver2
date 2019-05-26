@@ -155,7 +155,7 @@ class Admin_mod extends MX_Controller
                 return $this->_slides_add();
                 break;
             case 'delete':
-                return null;
+                return $this->_slides_delete();
                 break;
             default:
                 return $this->_slides_list();
@@ -177,16 +177,67 @@ class Admin_mod extends MX_Controller
     }
 
     function _slides_add() {
-        return $this->load->view('admin_slides_add');
+        $segment3 = $this->uri->segment(3);
+        if ($segment3 == 'edit') {
+            $id_slide = intval($this->uri->segment(4));
+        }
+
+        $slide_name = trim(htmlspecialchars($this->input->post('name')));
+        $slide_url =  trim(htmlspecialchars($this->input->post('urlPost')));
+        $slide_img  = trim(htmlspecialchars($this->input->post('urlImage')));
+        $slide_title = trim(htmlspecialchars($this->input->post('title')));
+
+        $slide = null;
+
+        if (empty($slide_img)) {
+            $uploadPath = 'images/slides';
+            $slide_img =  $this->_upload_image($uploadPath);
+        }
+
+        if ($this->input->post('isPost')) {
+            if ($segment3 == 'edit')  {
+
+            } else {
+                $slide = [
+                    'name' => $slide_name,
+                    'url' => $slide_url,
+                    'image' => $slide_img,
+                    'title' => $slide_title,
+                ];
+                $this->slides_model->addSlide($slide);
+            }
+        }
+        $data = $slide;
+        return $this->load->view('admin_slides_add', $data);
     }
 //    end slides
 
 // upload file
 
-    function _upload_image() {
+    function _upload_image($uploadPath) {
         $url_img = '';
 
-        if (!empty($_FILES['']));
+        if (!empty($_FILES['urlImage']['name'])) {
+            $config['upload_path'] = $uploadPath;
+            $config['max_size'] = 1000000;
+            $config['allowed_type'] = 'jpg|jpeg|png|gif';
+            $config['file_name']  = $_FILES['urlImage']['name'];
+
+            $this->load->library('upload', $config);
+
+            if ($this->upload->do_upload('urlImage')) {
+                $image_data = $this->upload->data();
+
+                $url_img = $image_data['file_name'];
+            }
+            if (!$url_img == '') {
+                $url = base_url() . $uploadPath . '/' . $url_img;
+                return $url;
+            } else {
+                $url_now  = $this->uri->uri_string();
+                redirectMsg($url_now, 'Upload không thành công');
+            }
+        }
     }
 }
 ?>
