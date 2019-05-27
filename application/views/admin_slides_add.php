@@ -21,23 +21,23 @@
                 <div class="card-body">
                     <div class="row">
                         <div class="col-12">
-                            <form method="post" action="">
+                            <form method="post" action="" enctype="multipart/form-data">
                                 <input type="hidden" name="isPost" value="1">
                                 <div class="form-group">
                                     <label class="form-label">Tên</label>
-                                    <input type="text" class="form-control" name="name" placeholder="Tên slide">
+                                    <input type="text" class="form-control" name="name" placeholder="Tên slide" value="<?= $slide_name?>">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">URL Bài viết</label>
-                                    <input type="text" class="form-control" name="urlPost" placeholder="https://....">
+                                    <input type="text" class="form-control" name="urlPost" placeholder="https://...." value="<?= $slide_url?>">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Ảnh</label>
-                                    <input type="file" class="form-control" name="urlImage" placeholder="Upload file">
+                                    <input type="file" name="urlImage">
                                 </div>
                                 <div class="form-group">
                                     <label class="form-label">Tiêu đề</label>
-                                    <input type="text" class="form-control" name="title" placeholder="Tiêu đề">
+                                    <input type="text" class="form-control" name="title" placeholder="Tiêu đề" value="<?= $slide_title?>">
                                 </div>
                                 <div class="form-group">
                                     <input type="Submit" class="btn btn-primary" name="btnSubmit" value="Đăng">

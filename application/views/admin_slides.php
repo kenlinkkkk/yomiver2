@@ -48,7 +48,7 @@
                                             <td><?= $slide->url; ?></td>
                                             <td>
                                                 <div class="avatar-group">
-                                                    <a class="avatar avatar-sm"  data-toggle="tooltip" href="<?= $slide->image;?>"><img alt="Image placeholder" class="rounded-circle" src="<?= $slide->image;?>"></a>
+                                                    <a class="avatar avatar-md"  data-toggle="tooltip" href="<?= $slide->image;?>"><img alt="Image placeholder" class="rounded" src="<?= $slide->image;?>"></a>
                                                 </div>
                                             </td>
                                             <td><?= $slide->title; ?></td>

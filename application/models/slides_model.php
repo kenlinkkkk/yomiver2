@@ -64,4 +64,16 @@ class slides_model extends CI_Model
 
         return $status;
     }
+
+    function getSlideById($idSlide) {
+        $this->db->from('slides');
+        $this->db->where('id', $idSlide);
+        $query = $this->db->get();
+
+        if ($query->num_rows() == 0) {
+            return false;
+        } else {
+            return $query->row();
+        }
+    }
 }

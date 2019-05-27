@@ -191,23 +191,69 @@ class Admin_mod extends MX_Controller
 
         if (empty($slide_img)) {
             $uploadPath = 'images/slides';
-            $slide_img =  $this->_upload_image($uploadPath);
+            $slide_img =  '';
+            $url_img = '';
+
+            if (!empty($_FILES['urlImage']['name'])) {
+                $config['upload_path'] = $uploadPath;
+                $config['max_size'] = 1000000;
+                $config['allowed_types'] = 'gif|jpg|png';
+                $config['file_name']  = $_FILES['urlImage']['name'];
+
+                $this->load->library('upload', $config);
+
+                if ($this->upload->do_upload('urlImage')) {
+                    $image_data = $this->upload->data();
+
+                    $url_img = $image_data['file_name'];
+                }else{
+                    $error = array('error' => $this->upload->display_errors());
+                }
+
+                if (!$url_img == '') {
+                    $url = base_url(). $uploadPath .'/' . $url_img;
+                    $slide_img = $url;
+                } else {
+                    $url_now  = $this->uri->uri_string();
+                    redirectMsg($url_now,'Upload không thành công!!');
+                }
+            }
         }
 
         if ($this->input->post('isPost')) {
-            if ($segment3 == 'edit')  {
+            $slide = [
+                'id' => $this->uri->segment(4),
+                'name' => $slide_name,
+                'url' => $slide_url,
+                'image' => $slide_img,
+                'title' => $slide_title,
+            ];
 
+            if ($segment3 == 'edit')  {
+                $this->slides_model->updateSlide($slide);
             } else {
-                $slide = [
-                    'name' => $slide_name,
-                    'url' => $slide_url,
-                    'image' => $slide_img,
-                    'title' => $slide_title,
-                ];
                 $this->slides_model->addSlide($slide);
             }
+
+            redirect($this->uri->level(2));
+        } elseif ( $segment3 == 'edit') {
+            $row = $this->slides_model->getSlideById($id_slide);
+            if (!$row) show_404();
+
+            $slide_id = $row->id;
+            $slide_name = $row->name;
+            $slide_url = $row->url;
+            $slide_title = $row->title;
         }
-        $data = $slide;
+
+        $data  = [
+            'slide_id' => $slide_id,
+            'slide_name' => $slide_name,
+            'slide_url' => $slide_url,
+            'slide_title' => $slide_title,
+        ];
+
+
         return $this->load->view('admin_slides_add', $data);
     }
 //    end slides
@@ -221,21 +267,23 @@ class Admin_mod extends MX_Controller
             $config['upload_path'] = $uploadPath;
             $config['max_size'] = 1000000;
             $config['allowed_type'] = 'jpg|jpeg|png|gif';
+            $config['max_width']            = 5000;
+            $config['max_height']           = 5000;
             $config['file_name']  = $_FILES['urlImage']['name'];
 
             $this->load->library('upload', $config);
-
             if ($this->upload->do_upload('urlImage')) {
                 $image_data = $this->upload->data();
 
                 $url_img = $image_data['file_name'];
             }
+
             if (!$url_img == '') {
-                $url = base_url() . $uploadPath . '/' . $url_img;
+                $url = base_url(). $uploadPath .'/' . $url_img;
                 return $url;
             } else {
                 $url_now  = $this->uri->uri_string();
-                redirectMsg($url_now, 'Upload không thành công');
+                redirect($url_now);
             }
         }
     }

@@ -103,9 +103,9 @@
                                 <li class="nav-item dropdown">
                                     <a aria-expanded="false" aria-haspopup="true" class="nav-link pr-md-0" data-toggle="dropdown" href="#" role="button">
                                         <div class="media align-items-center">
-                                            <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="<?=base_url()?>/asset/admin/img/faces/female/32.jpg"></span>
+                                            <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="<?= $this->session->userdata('avatar');?>"></span>
                                             <div class="media-body ml-2 d-none d-lg-block">
-                                                <span class="mb-0 ">Cori Stover</span>
+                                                <span class="mb-0 "><?= $this->session->userdata('name');?></span>
                                             </div>
                                         </div></a>
                                     <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
