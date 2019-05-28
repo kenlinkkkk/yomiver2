@@ -19,13 +19,13 @@
             <div class="col-10 vh-center">
                 <div class="row">
                     <div class="col-4">
-                        <a href="#" class="button button-color-1">GIỚI THIỆU</a>
+                        <a href="<?= base_url()?>gioi-thieu""><img src="<?= base_url()?>/images/buttons/bt1.png" class="img-fit"></a>
                     </div>
                     <div class="col-4">
-                        <a href="<?= base_url()?>huong-dan-dang-ky" class="button button-color-1">HƯỚNG DẪN</a>
+                        <a href="<?= base_url()?>huong-dan-dang-ky"><img src="<?= base_url()?>/images/buttons/bt2.png" class="img-fit"></a>
                     </div>
                     <div class="col-4" style="width: 100%">
-                        <a href="<?= base_url()?>lien-he" class="button button-color-1">LIÊN HỆ</a>
+                        <a href="<?= base_url()?>lien-he"><img src="<?= base_url()?>/images/buttons/bt3.png" class="img-fit"></a>
                     </div>
                 </div>
             </div>

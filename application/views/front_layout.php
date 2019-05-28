@@ -57,7 +57,7 @@ date_default_timezone_set("Asia/Bangkok");
         </div>
     </div>
     <!-- end Đăng nhập -->
-    <div id="particles-js" style="background-color: #040E57;z-index: -1;position: fixed;"></div>
+    <div id="particles-js" style="background-color: #121631;z-index: -1;position: fixed;"></div>
     <!-- navbar -->
     <nav class="navbar navbar-expand-lg navbar-inner static-top">
         <div class="container">

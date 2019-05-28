@@ -226,3 +226,7 @@ ul li {
     font-weight: 600;
     text-decoration: none;
 }
+
+.none-radius {
+    border-radius: 0px !important;
+}
