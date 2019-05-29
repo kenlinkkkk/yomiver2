@@ -55,7 +55,7 @@
                         
                         <div class="col-sm-12 col-md-6">
                             <center>
-                                <img src="<?= base_url()?>/images/stickers/avatar_image.png" class="img-fit">
+                                <img src="<?= base_url()?>/images/stickers/avatar_image.png" class="img-fit hidden-div">
                             </center>
                         </div>
                         

@@ -284,4 +284,9 @@ ul li {
     text-align: left;
 }
 
+@media (max-width: 768px) {
+    .hidden-div {
+        display: none;
+    }
+}
 

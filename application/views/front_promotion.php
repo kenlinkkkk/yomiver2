@@ -8,7 +8,7 @@
 ?>
 
 <main>
-    <div class="container vh-center">
+    <div class="container vh-center hidden-div">
         <div class="row">
             <div class="col-10 vh-center img-fit">
                 <img src="<?= base_url()?>images/qc1.png" class="img-fit">
