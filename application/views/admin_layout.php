@@ -44,7 +44,7 @@
                 <a class="navbar-brand" href="<?=base_url()?>admin"><img alt="..." class="navbar-brand-img main-logo" src="<?=base_url()?>/asset/admin/img/brand/logo-dark.png"> <img alt="..." class="navbar-brand-img logo" src="<?=base_url()?>/asset/admin/img/brand/logo.png"></a>
                 <ul class="side-menu">
                     <li>
-                        <a class="side-menu__item" href="#"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Slides</span></a>
+                        <a class="side-menu__item" href="<?= base_url()?>admin/slide"><i class="side-menu__icon fe fe-edit"></i><span class="side-menu__label">Slides</span></a>
                     </li>
 
                     <li>
@@ -103,9 +103,9 @@
                                 <li class="nav-item dropdown">
                                     <a aria-expanded="false" aria-haspopup="true" class="nav-link pr-md-0" data-toggle="dropdown" href="#" role="button">
                                         <div class="media align-items-center">
-                                            <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="<?=base_url()?>/asset/admin/img/faces/female/32.jpg"></span>
+                                            <span class="avatar avatar-sm rounded-circle"><img alt="Image placeholder" src="<?= $this->session->userdata('avatar');?>"></span>
                                             <div class="media-body ml-2 d-none d-lg-block">
-                                                <span class="mb-0 ">Cori Stover</span>
+                                                <span class="mb-0 "><?= $this->session->userdata('name');?></span>
                                             </div>
                                         </div></a>
                                     <div class="dropdown-menu dropdown-menu-arrow dropdown-menu-right">
@@ -123,9 +123,10 @@
                     <!-- Top navbar-->
 
                     <!-- Page content -->
-                    <div class="container-fluid pt-8">
 
+                        <?= $main?>
 
+                    <!-- End page content -->
 
                         <!-- Footer -->
                         <footer class="footer">

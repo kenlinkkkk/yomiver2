@@ -17,4 +17,63 @@ class slides_model extends CI_Model
         $this->db->from('slides');
         return $this->db->get();
     }
+
+    function deleteSlideById($idSlide) {
+        $this->db->from('slides');
+        $this->db->where('id', $idSlide);
+        $this->db->delete('slides');
+
+        if ($this->db->affected_rows() > 0) {
+            $status = "Xóa thành công";
+        } else {
+            $status = "Xóa thất bại";
+        }
+
+        return $status;
+    }
+
+    function addSlide($data) {
+        $this->db->set('name', $data['name']);
+        $this->db->set('url', $data['url']);
+        $this->db->set('image', $data['image']);
+        $this->db->set('title', $data['title']);
+        $this->db->insert('slides');
+
+        if ($this->db->affected_rows() > 0) {
+            $status = "Thêm thành công";
+        } else {
+            $status = "Thêm thất bại";
+        }
+
+        return $status;
+    }
+
+    function updateSlide($data) {
+        $this->db->set('name', $data['name']);
+        $this->db->set('url', $data['url']);
+        $this->db->set('image', $data['image']);
+        $this->db->set('title', $data['title']);
+        $this->db->where('id', $data['id']);
+        $this->db->update('slides');
+
+        if ($this->db->affected_rows() > 0) {
+            $status = "Cập nhật thành công";
+        } else {
+            $status = "Cập nhật thất bại";
+        }
+
+        return $status;
+    }
+
+    function getSlideById($idSlide) {
+        $this->db->from('slides');
+        $this->db->where('id', $idSlide);
+        $query = $this->db->get();
+
+        if ($query->num_rows() == 0) {
+            return false;
+        } else {
+            return $query->row();
+        }
+    }
 }

@@ -29,7 +29,7 @@ date_default_timezone_set("Asia/Bangkok");
     <div id="dangnhap" style="display: none;position: absolute;z-index: 9999;width: 100%; height: 100%">
         <div class="container login-container">
             <div class="row">
-                <div id="content-login" class="col-sm-12 col-md-6 login-form-1 vh-center" style="background-color:#fff; border-radius: 7px;position: fixed; max-height: 400px;">
+                <div id="content-login" class="col-sm-12 col-md-4 login-form-1 vh-center" style="background-color:#fff; border-radius: 7px;position: fixed; max-height: 400px;">
                     <h3>Đăng nhập</h3>
                     <form method="post" action="">
                         <div class="form-group">
@@ -51,6 +51,7 @@ date_default_timezone_set("Asia/Bangkok");
                                 Đăng kí ngay
                             </a>
                         </div>
+
                     </form>
                 </div>
             </div>

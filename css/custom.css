@@ -167,7 +167,7 @@ ul li {
 
 .pill-width {
     width: 33.3333333%;
-    background-color: #b3254d;
+    background-color: #971e3f;
     border-radius: 0px !important;
 }
 
@@ -230,3 +230,58 @@ ul li {
 .none-radius {
     border-radius: 0px !important;
 }
+
+.custom-input {
+    border-radius: 0px !important;
+    border: 1px solid white !important;
+    background-color:rgba(0, 0, 0, 0);
+}
+
+.custom-input:focus {
+    background-color: rgba(0, 0, 0, 0);
+    color: white;
+}
+
+.pill-width:hover {
+    border: 0px;
+    color: #ffffff;
+}
+
+.nav-tabs .nav-link.active, .nav-tabs .nav-item.show .nav-link {
+    background-color: #b3254d;
+    color: #ffffff;
+    border: 0px;
+}
+
+.border-content {
+    width: 100%;
+    background-color: rgba(0,0,0,0);
+    border: 2px solid #ffffff;
+    position: absolute;
+    top: 20px;
+}
+
+.text-header {
+    min-width: 200px;
+    max-width: 40%;
+    text-align: center;
+    position: relative;
+    background-color: #121631;
+}
+
+.content-tvbd {
+    height: 100%;
+    padding: 20px 0 20px 20px;
+}
+
+.content-text-bottom {
+    padding: 20px 20px 20px 0;
+}
+
+.text-tvbd {
+    height: 100%;
+    padding: 50px 10px 20px 20px;
+    text-align: left;
+}
+
+
