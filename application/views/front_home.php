@@ -10,7 +10,7 @@
 
 <main>
     <div id="home">
-        <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="position: relative; z-index: 2;">
+        <div id="carouselExampleControls" class="carousel slide hidden-div" data-ride="carousel" style="position: relative; z-index: 2;">
             <div class="carousel-inner">
                 <div class="carousel-item active">
                     <img class="d-block w-75 vh-center" src="<?=base_url()?>/images/backgrounds/slide-1.png" alt="First slide">
@@ -37,7 +37,7 @@
                 <div class="col-11 vh-center">
                     <div class="row">
 
-                        <div class="col-sm-12 col-md-3">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
                             <div class="card card-borderless" style="background-color:rgba(0, 0, 0, 0);">
                                 <div class="card-header text-center">
                                     <img src="<?= base_url()?>/images/stickers/horo1.png" class="img-fit">
@@ -53,13 +53,13 @@
                             </div>
                         </div>
                         
-                        <div class="col-sm-12 col-md-6">
+                        <div class="col-sm-12 col-lg-6 hidden-div">
                             <center>
                                 <img src="<?= base_url()?>/images/stickers/avatar_image.png" class="img-fit hidden-div">
                             </center>
                         </div>
                         
-                        <div class="col-sm-12 col-md-3">
+                        <div class="col-sm-12 col-md-6 col-lg-3">
                             <div class="card card-borderless" style="background-color:rgba(0, 0, 0, 0);">
                                 <div class="card-header text-center">
                                     <img src="<?= base_url()?>/images/stickers/horo2.png" class="img-fit">

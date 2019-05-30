@@ -51,7 +51,6 @@ date_default_timezone_set("Asia/Bangkok");
                                 Đăng kí ngay
                             </a>
                         </div>
-
                     </form>
                 </div>
             </div>
@@ -84,7 +83,6 @@ date_default_timezone_set("Asia/Bangkok");
         </div>
     </nav>
     <!-- end navbar -->
-    <div class="blank-80px"></div>
     <div class="set-opacity">
         <?= $main['view']?>
     </div>

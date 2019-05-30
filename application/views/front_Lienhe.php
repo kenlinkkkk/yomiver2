@@ -9,6 +9,10 @@
 
 <main>
     <div id="lienhe">
+        <div class="w-100">
+            <img src="<?=base_url()?>/images/banner/lienhe.png" class="img-fit">
+        </div>
+        <div class="blank-80px"></div>
         <div class="container vh-center">
             <div class="row">
                 <div class="col-10 vh-center white-text">

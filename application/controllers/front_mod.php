@@ -44,6 +44,9 @@ class Front_mod extends MX_Controller {
             case 'dieu-le':
                 $main = $this->_front_Dieule();
                 break;
+            case 'ket-hop-hoang-dao':
+                $main = $this->_front_Kethophoangdao();
+                break;
             default:
                 $main = $this->_front_Home();
                 break;
@@ -145,6 +148,14 @@ class Front_mod extends MX_Controller {
             'title' => 'Điều lệ thỏa thuận',
         ];
 
+        return $data;
+    }
+
+    function _front_Kethophoangdao() {
+        $data = [
+            'view' => $this->load->view('front_kethophoangdao'),
+            'title' => 'Kết hợp cung hoàng đạo',
+        ];
         return $data;
     }
 
