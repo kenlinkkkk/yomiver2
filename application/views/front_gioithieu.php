@@ -28,7 +28,9 @@
                         </div>
 
                         <div class="col-sm-12 col-md-2">
-                            <img src="<?= base_url()?>/images/stickers/2.png" class="img-fit vh-center">
+                            <center>
+                                <img src="<?= base_url()?>/images/stickers/2.png" class="img-fit vh-center">
+                            </center>
                         </div>
                     </div>
 
@@ -46,7 +48,9 @@
                         </div>
 
                         <div class="col-sm-12 col-md-2">
-                            <img src="<?= base_url()?>/images/stickers/1.png" class="img-fit vh-center">
+                            <center>
+                                <img src="<?= base_url()?>/images/stickers/1.png" class="img-fit vh-center">
+                            </center>
                         </div>
                     </div>
                 </div>

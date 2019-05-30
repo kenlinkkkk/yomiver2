@@ -16,7 +16,7 @@
                     <img class="d-block w-75 vh-center" src="<?=base_url()?>/images/backgrounds/slide-1.png" alt="First slide">
                     <div class="carousel-caption text-left bottom-40px">
                         <h4>XEM TỬ VI THEO NGÀY CỦA BẠN</h4>
-                        <a class="btn btn-primary" href="<?=base_url()?>tu-vi" style="border-radius: 0px !important">XEM THÊM</a>
+                        <a class="btn btn-primary" href="<?=base_url()?>tu-vi" style="border-radius: 0px !important"><strong>XEM THÊM</strong></a>
                     </div>
                 </div>
             </div>

@@ -30,7 +30,7 @@
                                 <div class="col-1">
                                     <h2 class="white-text number-title text-wrap">01</h2>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-10">
                                     <h5 class="white-text">ĐỐI TƯỢNG SỬ DỤNG</h5>
                                     <p class="white-text">Tất cả các thuê bao hoạt động 02 chiều trên mạng MobiFone</p>
                                 </div>
@@ -40,7 +40,7 @@
                                 <div class="col-1">
                                     <h2 class="white-text number-title text-wrap">02</h2>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-10">
                                     <h5 class="white-text">CÁC KÊNH CUNG CẤP DỊCH VỤ</h5>
                                     <p class="white-text">SMS, WEBSITE</p>
                                 </div>

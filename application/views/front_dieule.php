@@ -36,7 +36,7 @@
                                 <div class="col-1">
                                     <h2 class="number-title text-wrap">01</h2>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-10">
                                     <h5>NỘI DUNG CUNG CẤP</h5>
                                     <p>Nội dung cung cấp trên www.yomi.vn được phân loại ra các chuyên mục nhỏ theo chủ đề rõ ràng để bạn
                                     có thể dễ dàng tìm xem, tải về cũng như hỗ trợ bạn đăng tải, chia sẻ các thông tin mà mình yêu thích lên
@@ -74,7 +74,7 @@
                                 <div class="col-1">
                                     <h2 class="number-title text-wrap">02</h2>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-10">
                                     <h5>ĐỐI TƯỢNG ÁP DỤNG VÀ MỤC ĐÍCH CỦA THỎA THUẬN</h5>
                                     <p>Thỏa thuận này đưa ra những nguyên tắc chung trong hoạt động của người dùng trên mạng xã hội www.yomi.vn
                                     nhằm định hướng các hoạt động của bạn được phù hợp với các quy định của pháp luật và các quy định chuẩn đạo đức
@@ -93,7 +93,7 @@
                                 <div class="col-1">
                                     <h2 class="number-title text-wrap">03</h2>
                                 </div>
-                                <div class="col-11">
+                                <div class="col-10">
                                     <h5>CÁC ĐIỀU KHOẢN CƠ BẢN</h5>
                                     <ol>
                                         <li class="yellow-text"><h6>CÁC ĐIỀU CẤM TRÊN MẠNG XÃ HỘI WWW.YOMI.VN</h6></li>

@@ -18,11 +18,13 @@
                 <div class="col-10 vh-center">
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
-                            <img src="<?= base_url()?>/images/stickers/horo4.png" class="vh-center img-fit">
+                            <center>
+                                <img src="<?= base_url()?>/images/stickers/horo4.png" class="vh-center img-fit">
+                            </center>
                         </div>
                         <div class="col-sm-12 col-md-8">
                             <div class="vh-center">
-                                <h4 class="blue-text">KẾT HỢP CUNG HOÀNG ĐẠO</h4>
+                                <h4 class="blue-text text-center">KẾT HỢP CUNG HOÀNG ĐẠO</h4>
                                 <p class="white-text">Gói khám phá Ẩn số (dự kiến chính thức cung cấp và có hiệu lực từ 19/10/2018).</p>
                                 <h5 class="white-text">Soạn tin <span class="yellow-text">DK QT</span> gửi
                                     <span class="yellow-text">5899</span>, phí thuê bao <span class="yellow-text">2.000 đồng/ngày.</span>

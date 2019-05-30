@@ -18,7 +18,9 @@
                 <div class="col-10 vh-center">
                     <div class="row">
                         <div class="col-sm-12 col-md-4">
-                            <img src="<?= base_url()?>/images/stickers/3.png" class="img-fit">
+                            <center>
+                                <img src="<?= base_url()?>/images/stickers/3.png" class="img-fit">
+                            </center>
                         </div>
                         <div class="col-sm-12 col-md-8">
                             <div class="vh-center">
