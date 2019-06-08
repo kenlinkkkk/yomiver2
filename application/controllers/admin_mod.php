@@ -125,6 +125,8 @@ class Admin_mod extends MX_Controller
             }
         }
         return $this->load->view('admin_login', array('errors' => $errors), true);
+
+
     }
 
     function _logout() {
