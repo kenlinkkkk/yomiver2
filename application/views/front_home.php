@@ -10,25 +10,33 @@
 
 <main>
     <div id="home">
-        <div id="carouselExampleControls" class="carousel slide hidden-div" data-ride="carousel" style="position: relative; z-index: 2;">
-            <div class="carousel-inner">
-                <div class="carousel-item active">
-                    <img class="d-block w-75 vh-center" src="<?=base_url()?>/images/backgrounds/slide-1.png" alt="First slide">
-                    <div class="carousel-caption text-left bottom-40px">
-                        <h4>XEM TỬ VI THEO NGÀY CỦA BẠN</h4>
-                        <a class="btn btn-primary" href="<?=base_url()?>tu-vi" style="border-radius: 0px !important"><strong>XEM THÊM</strong></a>
+        <div class="hidden-div">
+            <div class="w-100 vh-center">
+                <img src="<?= base_url('images/backgrounds/cloud.jpg')?>" style="position: absolute; z-index: 1; top: 25px; min-height: 400px;max-width: 100%">
+            </div>
+            <div class="container vh-center">
+                <div id="carouselExampleControls" class="carousel slide" data-ride="carousel" style="position: relative; z-index: 2;">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img class="d-block vh-center" src="<?=base_url()?>/images/backgrounds/slide-1.png" alt="First slide">
+                            <div class="carousel-caption text-left bottom-40px">
+                                <h5>XEM TỬ VI THEO NGÀY CỦA BẠN</h5>
+                                <a class="btn btn-primary" href="<?=base_url()?>tu-vi" style="border-radius: 0px !important"><strong>XEM THÊM</strong></a>
+                            </div>
+                        </div>
                     </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
                 </div>
             </div>
-            <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
-                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                <span class="sr-only">Previous</span>
-            </a>
-            <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
-                <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                <span class="sr-only">Next</span>
-            </a>
         </div>
+
 
         <div class="blank-80px"></div>
 
@@ -36,7 +44,6 @@
             <div class="row">
                 <div class="col-11 vh-center">
                     <div class="row">
-
                         <div class="col-sm-12 col-md-6 col-lg-3">
                             <div class="card card-borderless" style="background-color:rgba(0, 0, 0, 0);">
                                 <div class="card-header text-center">

@@ -41,7 +41,7 @@
                                     <p>Nội dung cung cấp trên www.yomi.vn được phân loại ra các chuyên mục nhỏ theo chủ đề rõ ràng để bạn
                                     có thể dễ dàng tìm xem, tải về cũng như hỗ trợ bạn đăng tải, chia sẻ các thông tin mà mình yêu thích lên
                                     trang theo đúng các chủ đề của chuyên mục đó, cụ thể như sau:</p>
-                                    <table class="table-responsive table-bordered">
+                                    <table class="table table-responsive table-bordered">
                                         <thead>
                                             <tr>
                                                 <td scope="col" class="yellow-text">STT</td>

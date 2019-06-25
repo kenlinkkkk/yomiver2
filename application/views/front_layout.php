@@ -24,9 +24,9 @@ date_default_timezone_set("Asia/Bangkok");
 </head>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" class="button-BTT" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" class="button-BTT none-radius" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     <!-- Đăng nhập -->
-    <div id="dangnhap" style="display: none;position: absolute;z-index: 9999;width: 100%; height: 100%">
+    <div id="dangnhap" style="display: none;position: absolute;z-index: 9999;min-width: 100%; min-height: 100%">
         <div class="container login-container">
             <div class="row">
                 <div id="content-login" class="col-sm-12 col-md-4 login-form-1 vh-center" style="background-color:#fff; border-radius: 7px;position: fixed; max-height: 400px;">
@@ -59,10 +59,10 @@ date_default_timezone_set("Asia/Bangkok");
     <!-- end Đăng nhập -->
     <div id="particles-js" style="background-color: #121631;z-index: -1;position: fixed;"></div>
     <!-- navbar -->
-    <nav class="navbar navbar-expand-lg navbar-inner static-top">
+    <nav class="navbar navbar-expand-lg navbar-inner static-top sticky-top" style="background-color:#121631;">
         <div class="container">
-            <a class="navbar-brand" href="<?=base_url()?>">
-                <img src="<?= base_url()?>/images/logo.png" alt="Yomi">
+            <a class="navbar-brand logo-layout" href="<?=base_url()?>">
+                <img src="<?= base_url()?>/images/logo.png" alt="Yomi" class="logo-layout">
             </a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon" style="color:#ffffff;"><i class="fas fa-grip-horizontal"></i></span>
@@ -70,13 +70,22 @@ date_default_timezone_set("Asia/Bangkok");
             <div class="collapse navbar-collapse" id="navbarResponsive">
                 <ul class="navbar-nav ml-auto">
                     <li class="nav-item">
-                        <a class="nav-link white-text" href="#">Demo</a>
+                        <a class="nav-link white-text" href="<?= base_url('tu-vi')?>">TỬ VI & PHONG THỦY</a>
                     </li>
-                    <li class="nav-item disabled">
-                        <p class="white-text item-padding"><span><i class="fas fa-phone-volume"></i></span> CSKH: (024) 7106 0808</p>
+                    <li class="nav-item">
+                        <a class="nav-link white-text" href="<?= base_url('hoang-dao')?>">CUNG HOÀNG ĐẠO</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white-text" href="<?= base_url('sach-kham-pha')?>">SÁCH KHÁM PHÁ BẢN THÂN</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white-text" href="<?= base_url('cttt')?>">KHUYẾN MẠI</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link white-text" href="<?= base_url('mini-game')?>">MINI GAME</a>
                     </li>
                     <li>
-                        <button id="dangnhapbtn" class="btn btn-light">Đăng nhập</button>
+                        <button id="dangnhapbtn" class="btn btn-light none-radius">Đăng nhập</button>
                     </li>
                 </ul>
             </div>

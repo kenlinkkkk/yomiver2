@@ -47,6 +47,9 @@ class Front_mod extends MX_Controller {
             case 'ket-hop-hoang-dao':
                 $main = $this->_front_Kethophoangdao();
                 break;
+            case 'mini-game':
+                $main = $this->_front_Minigame();
+                break;
             default:
                 $main = $this->_front_Home();
                 break;
@@ -156,6 +159,15 @@ class Front_mod extends MX_Controller {
             'view' => $this->load->view('front_kethophoangdao'),
             'title' => 'Kết hợp cung hoàng đạo',
         ];
+        return $data;
+    }
+
+    function _front_Minigame() {
+        $data = [
+            'view' => $this->load->view('front_minigame'),
+            'title' => 'Mini game',
+        ];
+
         return $data;
     }
 
