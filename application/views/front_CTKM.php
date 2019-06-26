@@ -11,15 +11,15 @@
     <div id="CTKM">
         <div class="container">
             <div class="row">
-                <div class="col-10 bg-table">
+                <div class="col-sm-11 col-md-10 bg-table">
                     <div class="row">
-                        <div class="col-11 bg-table">
+                        <div class="col-sm-12 col-md-11 bg-table">
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">01</h2>
+                                    <h2 class="white-text number-title text-wrap">1</h2>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-11">
                                     <h5 class="white-text">TÊN CHƯƠNG TRÌNH TRÚNG THƯỞNG</h5>
                                     <p class="yellow-text">&#34 Đặt Số Thả Ga - Nhận Quà Cực Đã &#34</p>
                                 </div>
@@ -27,9 +27,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">02</h2>
+                                    <h2 class="white-text number-title text-wrap">2</h2>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-11">
                                     <h5 class="white-text">THỜI GIAN ÁP DỤNG</h5>
                                     <p class="white-text">Từ 0:00:00 ngày <span class="yellow-text">18/02/2019</span> đến 23:59:59 ngày <span class="yellow-text">18/05/2019 </span>(90 ngày) </p>
                                 </div>
@@ -37,9 +37,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">03</h2>
+                                    <h2 class="white-text number-title text-wrap">3</h2>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-11">
                                     <h5 class="white-text">ĐẦU SỐ TƯƠNG TÁC</h5>
                                     <h4 class="yellow-text" style="font-weight: lighter">5899</h4>
                                 </div>
@@ -47,9 +47,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">04</h2>
+                                    <h2 class="white-text number-title text-wrap">4</h2>
                                 </div>
-                                <div class="col-8">
+                                <div class="col-11">
                                     <h5 class="white-text">HÌNH THỨC</h5>
                                     <p class="white-text">Đặt số và tích điểm trúng thưởng</p>
                                 </div>
@@ -57,9 +57,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">05</h2>
+                                    <h2 class="white-text number-title text-wrap">5</h2>
                                 </div>
-                                <div class="col-10">
+                                <div class="col-11">
                                     <h5 class="white-text">CƠ CẤU GIẢI THƯỞNG</h5>
 
                                     <table class="table-responsive table-bordered">
@@ -114,9 +114,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">06</h2>
+                                    <h2 class="white-text number-title text-wrap">6</h2>
                                 </div>
-                                <div class="col-10">
+                                <div class="col-11">
                                     <h5 class="white-text">THỂ LỆ THAM GIA CHƯƠNG TRÌNH KHUYẾN MÃI</h5>
                                     <ul>
                                         <li>Thuê bao đăng ký lần đầu gói Khám phá ẩn số trong thời gian diễn ra chương trình, đồng thời duy trì
@@ -163,9 +163,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">07</h2>
+                                    <h2 class="white-text number-title text-wrap">7</h2>
                                 </div>
-                                <div class="col-10">
+                                <div class="col-11">
                                     <h5 class="white-text">CÁCH THỨC XÁC ĐỊNH TRÚNG THƯỞNG</h5>
                                     <p class="yellow-text"><span><i class="fab fa-jira"></i></span> ĐỐI VỚI KHÁCH HÀNG ĐĂNG KÝ DỊCH VỤ ĐƯỢC CỘNG 5.000 VNĐ VÀO TÀI KHOẢN CHÍNH</p>
                                     <p class="white-text">Thuê bao lần đầu đăng ký mới gói cước Khám phá ẩn số trong thời gian diễn ra chương trình sẽ được hưởng chính sách ưu đãi như sau:</p>
@@ -187,9 +187,9 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">08</h2>
+                                    <h2 class="white-text number-title text-wrap">8</h2>
                                 </div>
-                                <div class="col-10">
+                                <div class="col-11">
                                     <h5 class="white-text">CÁCH THỨC XÁC ĐỊNH THUÊ BAO TRÚNG THƯỞNG GIẢI TUẦN, GIẢI THÁNG</h5>
                                     <p class="yellow-text"><span><i class="fab fa-jira"></i></span> ĐỐI VỚI GIẢI THÁNG (01 GIẢI/THÁNG)</p>
                                     <p class="white-text">Giải Tháng áp dụng cho 01 thuê bao đạt được số điểm tích lũy cao nhất và sớm nhất phát sinh từ các giao dịch thành công mỗi tháng theo thời gian quy định như sau:</p>

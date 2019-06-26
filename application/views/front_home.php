@@ -12,7 +12,7 @@
     <div id="home">
         <div class="hidden-div">
             <div class="w-100 vh-center">
-                <img src="<?= base_url('images/backgrounds/cloud.jpg')?>" style="position: absolute; z-index: 1; top: 25px; min-height: 300px;max-width: 100%">
+                <img src="<?= base_url('images/backgrounds/cloud.jpg')?>" style="position: absolute; z-index: 1; top: 25px; max-height: 300px;min-width: 100%">
             </div>
             <div class="container vh-center">
                 <div class="row">
@@ -150,7 +150,7 @@
                                                     <div class="col-6">
                                                         <center>
                                                             <button class="btn btn-outline-light none-radius" type="submit" name="btnSubmit" style="width: 120px">
-                                                                    <span><img src="<?= base_url('images/icon/book.png')?>" style="width: 15px; height: 15px; margin-bottom: 2px"></span> TẠO SÁCH
+                                                                    <span><img src="<?= base_url('images/icon/book.png')?>" style="width: 20px; height: 20px; margin-bottom: 2px"></span> TẠO SÁCH
                                                             </button>
                                                         </center>
                                                     </div>
@@ -184,7 +184,7 @@
                                             <div class="col-sm-12 col-md-6">
                                                 <div  class="row" style="margin-top: 5px;">
                                                     <div class="col-2">
-                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">01</h2>
+                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">1</h2>
                                                     </div>
                                                     <div class="col-10">
                                                         <p class="white-text">Dịch vụ được xây dựng trên nền tảng tích hợp tri thức Đông Tây, cụ thể
@@ -196,7 +196,7 @@
                                             <div class="col-sm-12 col-md-6 border-show">
                                                 <div  class="row" style="margin-top: 5px;">
                                                     <div class="col-2">
-                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">02</h2>
+                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">2</h2>
                                                     </div>
                                                     <div class="col-10">
                                                         <p class="white-text">Đây là dự án đầu tiên và duy nhất tại Việt Nam ứng dụng Tử Vi Học và Chiêm Tinh Học
@@ -212,7 +212,7 @@
                                             <div class="col-sm-12 col-md-6">
                                                 <div  class="row" style="margin-top: 5px;">
                                                     <div class="col-2">
-                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">01</h2>
+                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">1</h2>
                                                     </div>
                                                     <div class="col-10">
                                                         <p class="white-text">1234</p>
@@ -222,7 +222,7 @@
                                             <div class="col-sm-12 col-md-6 border-show">
                                                 <div  class="row" style="margin-top: 5px;">
                                                     <div class="col-2">
-                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">02</h2>
+                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">2</h2>
                                                     </div>
                                                     <div class="col-10">
                                                         <p class="white-text">567</p>
@@ -236,7 +236,7 @@
                                             <div class="col-sm-12 col-md-6">
                                                 <div  class="row" style="margin-top: 5px;">
                                                     <div class="col-2">
-                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">01</h2>
+                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">1</h2>
                                                     </div>
                                                     <div class="col-10">
                                                         <p class="white-text">567</p>
@@ -246,7 +246,7 @@
                                             <div class="col-sm-12 col-md-6 border-show">
                                                 <div  class="row" style="margin-top: 5px;">
                                                     <div class="col-2">
-                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">02</h2>
+                                                        <h2 class="white-text number-title text-wrap number-title-border text-center">2</h2>
                                                     </div>
                                                     <div class="col-10">
                                                         <p class="white-text">123</p>

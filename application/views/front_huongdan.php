@@ -15,9 +15,9 @@
         <div class="blank-80px"></div>
         <div class="container">
             <div class="row">
-                <div class="col-10 margin-banner-hd">
+                <div class="col-sm-10 col-md-10 margin-banner-hd">
                     <div class="row">
-                        <div class="col-11 margin-banner-hd">
+                        <div class="col-sm-12 col-md-11 margin-banner-hd">
                             <hr>
                             <h4 class="white-text">DỊCH VỤ KHÁM PHÁ BẢN THÂN - YOMI</h4>
                             <p class="white-text"><span class="yellow-text span-bolder">MIỄN PHÍ</span> đăng kí và sử dụng miễn phí ngày đầu tiên cho tất cả các gói dịch vụ</p>
@@ -26,13 +26,13 @@
                 </div>
             </div>
             <div class="row">
-                <div class="col-10 bg-table">
+                <div class="col-sm-10 col-md-10 bg-table">
                     <div class="row">
-                        <div class="col-11 bg-table">
+                        <div class="col-sm-12 col-md-11 bg-table">
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">01</h2>
+                                    <h2 class="white-text number-title text-wrap">1</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">ĐỐI TƯỢNG SỬ DỤNG</h5>
@@ -42,7 +42,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">02</h2>
+                                    <h2 class="white-text number-title text-wrap">2</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">CÁC KÊNH CUNG CẤP DỊCH VỤ</h5>
@@ -52,7 +52,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="white-text number-title text-wrap">03</h2>
+                                    <h2 class="white-text number-title text-wrap">3</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5 class="white-text">HƯỚNG DẪN ĐĂNG KÍ/ HỦY VÀ GIÁ CƯỚC</h5>

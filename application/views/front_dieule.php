@@ -11,9 +11,9 @@
     <div id="dieule">
         <div class="container vh-center">
             <div class="row">
-                <div class="col-10 vh-center bg-table white-text">
+                <div class="col-sm-11 col-md-10 vh-center bg-table white-text">
                     <div class="row">
-                        <div class="col-11 vh-center">
+                        <div class="col-sm-12 col-md-11 vh-center">
                             <hr>
                             <p class="text-center">CỘNG HÒA XÃ HỘI CHỦ NGHĨA VIỆT NAM</p>
                             <p class="text-center">Độc lập - Tự do - Hạnh phúc</p>
@@ -34,7 +34,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="number-title text-wrap">01</h2>
+                                    <h2 class="number-title text-wrap">1</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5>NỘI DUNG CUNG CẤP</h5>
@@ -72,7 +72,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="number-title text-wrap">02</h2>
+                                    <h2 class="number-title text-wrap">2</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5>ĐỐI TƯỢNG ÁP DỤNG VÀ MỤC ĐÍCH CỦA THỎA THUẬN</h5>
@@ -91,7 +91,7 @@
                             <hr>
                             <div class="row">
                                 <div class="col-1">
-                                    <h2 class="number-title text-wrap">03</h2>
+                                    <h2 class="number-title text-wrap">3</h2>
                                 </div>
                                 <div class="col-10">
                                     <h5>CÁC ĐIỀU KHOẢN CƠ BẢN</h5>

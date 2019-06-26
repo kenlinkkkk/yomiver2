@@ -155,10 +155,6 @@ ul li {
     bottom: 30%;
 }
 
-.navbar-inner {
-    background-color:transparent;
-}
-
 .collapse  ul li {
     float: left;
     list-style: none;
@@ -195,14 +191,27 @@ ul li {
     height: 50px;
     border-radius: 5px;
 }
+.close-icon {
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    width: 20px;
+    height: 20px;
+}
 
 .login-container{
     margin-top: 5%;
     margin-bottom: 5%;
 }
 .login-form-1{
-    padding: 5%;
+    padding: 2%;
     box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+    max-width: 400px;
+    max-height: 300px;
+    position: fixed;
+    background-color:
+    border-radius: 7px;
+    z-index: 9999;
 }
 .login-form-1 h3{
     text-align: center;
@@ -258,6 +267,10 @@ ul li {
     border: 0px;
 }
 
+.non-padding {
+    padding: 0px !important;
+}
+
 .border-content {
     width: 100%;
     background-color: rgba(0,0,0,0);
@@ -293,6 +306,19 @@ ul li {
     color: #00c7ff;
 }
 
+.show > .dropdown-menu {
+    max-height: 900px;
+    visibility: visible;
+}
+
+.dropdown-menu{
+    display: block;
+    max-height: 0;
+    visibility: hidden;
+    transition: all 0.5s ease-in-out;
+    overflow: hidden;
+}
+
 ol {
     padding-left: 1em;
 }
@@ -304,7 +330,7 @@ ul {
 .footer-ul ul > li {
     list-style: none;
     float: left;
-    /*padding-left: 15px;*/
+    padding-left: 15px;
 }
 
 .logo-layout {
@@ -317,14 +343,40 @@ ul {
     border-top: 0px solid white;
 }
 
+.dropdown-menu {
+    background-color: #121631 !important;
+}
+
+.dropdown-item {
+    color: white !important;
+}
+
+.dropdown-item:hover {
+    background-color: rgba(255,255,255,0.2);
+}
+
 @media (max-width: 991.98px) {
     .hidden-div {
         display: none;
+    }
+    .footer-ul ul > li a {
+        padding: 0px;
     }
 
     .border-show {
         border-top: 1px solid white;
         border-left: 0px solid white;
+    }
+
+    .login-form-1 {
+        padding: 5%;
+        box-shadow: 0 5px 8px 0 rgba(0, 0, 0, 0.2), 0 9px 26px 0 rgba(0, 0, 0, 0.19);
+        max-width: 90%;
+        max-height: 250px;
+        position: fixed;
+        background-color: #ffffff;
+        border-radius: 7px;
+        z-index: 9999;
     }
     ol {
         padding-left: 0.5em;

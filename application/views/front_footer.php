@@ -56,7 +56,7 @@
                         </li>
                         <li>
                             <span><img src="<?= base_url()?>/images/icons/email.png" class="vh-center" style="max-width: 30px; max-height: 30px;"></span>
-                            Email: demo@demo.com
+                            Email: cskh@vano.vn
                         </li>
                     </ul>
                 </div>
