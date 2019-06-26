@@ -50,6 +50,9 @@ class Front_mod extends MX_Controller {
             case 'mini-game':
                 $main = $this->_front_Minigame();
                 break;
+            case 'dstt':
+                $main = $this->_front_DSTT();
+                break;
             default:
                 $main = $this->_front_Home();
                 break;
@@ -166,6 +169,15 @@ class Front_mod extends MX_Controller {
         $data = [
             'view' => $this->load->view('front_minigame'),
             'title' => 'Mini game',
+        ];
+
+        return $data;
+    }
+
+    function _front_DSTT() {
+        $data = [
+            'view' => $this->load->view('front_dstt'),
+            'title' => 'Danh sách trúng thưởng',
         ];
 
         return $data;

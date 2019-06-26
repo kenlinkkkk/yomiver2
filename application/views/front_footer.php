@@ -12,13 +12,9 @@
         <div class="container-fluid background-overlay">
             <div class="container vh-center white-text">
                 <div class="row">
-                    <div class="col-sm-12 col-md-4">
-                        <img src="<?=base_url('images/logo.png')?>" class="logo-footer-mobile">
-                        <h6 class="text-footer-mobile">TỬ VI - PHONG THỦY <br> CUNG HOÀNG ĐẠO HẰNG NGÀY</h6>
-                    </div>
-                    <hr>
+                    <div class="col-md-4"></div>
                     <div class="col-sm-12 col-md-8">
-                        <div class="row footer-ul hidden-div">
+                        <div class="row footer-ul">
                             <ul>
                                 <li><a class="nav-link white-text" href="<?=base_url('gioi-thieu')?>"><strong> Giới thiệu</strong></a></li>
                                 <li><a class="nav-link white-text" href="<?=base_url('huong-dan-dang-ky')?>"><strong> Hướng dẫn</strong></a></li>
@@ -26,6 +22,13 @@
                                 <li><a class="nav-link white-text" href="<?=base_url('dieu-le')?>"><strong> Điều lệ</strong></a></li>
                             </ul>
                         </div>
+                    </div>
+                    <div class="col-sm-12 col-md-4">
+                        <img src="<?=base_url('images/logo.png')?>" class="logo-footer-mobile">
+                        <h6 class="text-footer-mobile">TỬ VI - PHONG THỦY <br> CUNG HOÀNG ĐẠO HẰNG NGÀY</h6>
+                    </div>
+                    <hr>
+                    <div class="col-sm-12 col-md-8">
                         <div class="row">
                             <div class="col-12">
                                 <ul style="padding-top: 10px">

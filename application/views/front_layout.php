@@ -24,7 +24,7 @@ date_default_timezone_set("Asia/Bangkok");
 </head>
 
 <body>
-    <button onclick="topFunction()" id="myBtn" class="button-BTT none-radius" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
+    <button onclick="topFunction()" id="myBtn" class="button-BTT" title="Go to top"><i class="fas fa-angle-double-up"></i></button>
     <!-- Đăng nhập -->
     <div id="dangnhap" style="display: none;position: absolute;z-index: 9999;min-width: 100%; min-height: 100%">
         <div class="container login-container">
@@ -78,14 +78,26 @@ date_default_timezone_set("Asia/Bangkok");
                     <li class="nav-item">
                         <a class="nav-link white-text" href="<?= base_url('sach-kham-pha')?>">SÁCH KHÁM PHÁ BẢN THÂN</a>
                     </li>
-                    <li class="nav-item">
-                        <a class="nav-link white-text" href="<?= base_url('cttt')?>">KHUYẾN MẠI</a>
+                    <li class="nav-item dropdown">
+                        <a class="nav-link white-text dropdown-toggle" href="<?= base_url('cttt')?>" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">KHUYẾN MẠI</a>
+                        <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                            <a class="dropdown-item" href="<?=base_url('cttt')?>">CHƯƠNG TRÌNH TRÚNG THƯỞNG</a>
+                            <a class="dropdown-item" href="<?= base_url('dstt')?>">DANH SÁCH TRÚNG THƯỞNG</a>
+                        </div>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link white-text" href="<?= base_url('mini-game')?>">MINI GAME</a>
                     </li>
                     <li>
-                        <button id="dangnhapbtn" class="btn btn-light none-radius">Đăng nhập</button>
+                        <a href="<?= base_url('huong-dan-dang-ky')?>">
+                            <button id="dangkibtn" class="btn btn-outline-light none-radius" style="width: 120px">
+                                <p style="margin: 0;"><span><img src="<?= base_url('images/icon/Pen-icon.png')?>" style="width: 15px; height: 15px; margin-bottom: 2px"></span> ĐĂNG KÍ</p>
+                            </button>
+                        </a>
+
+                        <button id="dangnhapbtn" class="btn btn-primary none-radius" style="width: 120px">
+                            <span><img src="<?= base_url('images/icon/user.png')?>" style="width: 15px; height: 15px; margin-bottom: 2px"></span> ĐĂNG NHẬP
+                        </button>
                     </li>
                 </ul>
             </div>
